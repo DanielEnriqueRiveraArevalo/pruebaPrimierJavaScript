@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #0f0c29;
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.main {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('/img/bg.jpg');
+	border-top: 5px solid #9900ff;
+	border-bottom: 5px solid #9900ff;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.main .formTasks {
+	color: #f7f2f24f;
+	text-align: center;
+}
+
+.main .formTasks input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.main .formTasks input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: red;
+}
+
+.main .formTasks .btn {
+	background: none;
+	border: 1px solid #D32F2F;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.main .formTasks .btn:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tasks .list {
+	list-style: none;
+}
+
+.tasks .list li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tasks .list li a {
+	color: #f0e9e9;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tasks .list li a:hover {
+	text-decoration: line-through;
+}
